@@ -1,8 +1,9 @@
 {
   "expo": {
     "name": "Wizeline_React-Native",
-    "slug": "Wizeline_React-Native",
+    "slug": "Wizeline",
     "version": "1.0.0",
+    "scheme":"Wizeline",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -21,10 +22,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.wizeline",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "dc93d468-167e-475f-99b6-f473a81895fd"
+      }
     }
   }
 }
